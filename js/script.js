@@ -49,7 +49,7 @@ function loadPage(newPage) {
   }
 }
 
-// adding a feature to load new data, this will data will disappear on page refresh, though
+// adding a feature to load new data, this data will disappear on page refresh, though
 let newDataDiv = document.getElementById("newDataDiv")
 async function getNewData() {
   let newCount = Math.floor(Math.random() * 76) + 25 // number between 25 and 100
